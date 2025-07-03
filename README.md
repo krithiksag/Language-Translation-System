@@ -47,8 +47,8 @@ This is what it looks like when a word is sent to the bot and the translation is
 1. Flash MicroPython firmware on your Raspberry Pi Pico w.
 2. Connect LCD to the correct GPIO pins (SDA → GP0, SCL → GP1).
 3. Upload the following files to the Pico:
-   - `main.py` (your script)
-   - `lcd_api.py` and `pico_i2c_lcd.py`(external libraries)
+    `main.py` 
+    `lcd_api.py` and `pico_i2c_lcd.py`(libraries)
 4. Create a bot using [@BotFather]and get the bot token.
 5. Replace the SSID, password, and bot token in the code.
 6. Run the script and start messaging your bot!
@@ -59,20 +59,18 @@ This is what it looks like when a word is sent to the bot and the translation is
 
 Send any of these messages to the bot:
 
-hello
-goodbye
-cat
-school
-love
+Day
+Night
+Hello
+Flower
 
 
 And receive translations like:
 
+jour
+nuit
 Bonjour
-Au revoir
-chat
-école
-aimer
+fleur
 
 ##  Future Ideas
 
