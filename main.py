@@ -27,7 +27,7 @@ led_pin = machine.Pin("LED", machine.Pin.OUT)
 led_pin.value(1)  # Turn on the LED
 print("IP Address:", wlan.ifconfig()[0])
 # Define your Telegram Bot API token
-bot_token = "5644155420:AAGczZBhAWTJiMoDhLToKJunBKdXx03hem8"
+bot_token = "Your token"
 
 # Define a translation dictionary
 translation_dict = {
