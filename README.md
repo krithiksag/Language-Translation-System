@@ -20,7 +20,7 @@ This is what it looks like when a word is sent to the bot and the translation is
 
 ---
 
-## 🔧 Hardware Requirements
+##  Hardware Requirements
 
 - Raspberry Pi Pico (or Pico W for Wi-Fi)
 - I2C 20x4 LCD display (Address: `0x27`)
@@ -31,7 +31,7 @@ This is what it looks like when a word is sent to the bot and the translation is
 
 ---
 
-## 📡 Features
+##  Features
 
 - Connects to Wi-Fi using MicroPython
 - Integrates with Telegram Bot API
@@ -42,7 +42,7 @@ This is what it looks like when a word is sent to the bot and the translation is
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 1. Flash MicroPython firmware on your Raspberry Pi Pico w.
 2. Connect LCD to the correct GPIO pins (SDA → GP0, SCL → GP1).
@@ -76,6 +76,6 @@ aimer
 
 ##  Future Ideas
 
-- Add real-time translation using Google Translate API
-- Add speech-to-text input using microphone module
-- Add OLED or touchscreen display support
+Add real-time translation using Google Translate API
+Add speech-to-text input using microphone module
+Add OLED or touchscreen display support
